@@ -1,7 +1,7 @@
 const Cliente = require("./Cliente");
 const Conta = require("./Conta");
 
-/*test("teste saque valor igual ao saldo", () => {
+test("teste saque valor igual ao saldo", () => {
   var cliente01 = new Cliente();
   cliente01.nome = "Jose da Silva";
   cliente01.cpf = "11100099954";
@@ -58,7 +58,7 @@ test("teste deposito valor negativo", () => {
 
   expect(contaDoCliente01.saldo).toBe(0);
 });
-*/
+
 test("Tranferir 50 reais da contaA para a contaB ", () => {
   var cliente01 = new Cliente();
   cliente01.nome = "Isaque";
